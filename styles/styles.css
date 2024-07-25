@@ -151,11 +151,13 @@ h3 {
     grid-row: 2 / 3;
     background-image: url(../img/grafico1.jpg);
     margin: 2rem;
+    border-radius: 5%;
 }
 .grafico--node {
     background-image: url(../img/grafico2.jpg);
     grid-row: 8 / 9;
     margin: 2rem;
+    border-radius: 5%;
 }
 
 @media (min-width: 768px) {
@@ -163,4 +165,13 @@ h3 {
         grid-row: 5 / 6;
         grid-column: 2 / 4;
     }
+}
+
+.Nosotros{
+
+}
+
+.Nosotros_imgen{
+    width: 200px;
+    height: 200px;
 }
