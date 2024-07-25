@@ -107,8 +107,9 @@ h3 {
 /** Productos **/
 .producto {
     background-color: var(--primarioOscuro);
-    padding: 2rem;
-    margin: 2rem; 
+    padding: 1rem;
+    
+   
 }
 
 .producto__nombre {
