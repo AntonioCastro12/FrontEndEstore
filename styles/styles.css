@@ -107,11 +107,19 @@ h3 {
 /** Productos **/
 .producto {
     background-color: var(--primarioOscuro);
-    padding: 1rem;
-    
+    border-radius: 5%;
    
 }
 
+@media (min-width: 768px){
+    .producto {
+        background-color: var(--primarioOscuro);
+        padding: 2rem;
+        margin: 10px;
+        border-radius: 5%;
+       
+    }
+}
 .producto__nombre {
     font-size: 4rem;
 }
@@ -120,7 +128,9 @@ h3 {
     color: var(--secundario);
 }
 
-
+.producto__imagen{
+    border-radius: 5%;
+}
 
 .producto__nombre,
 .producto__precio {
